@@ -20,7 +20,17 @@ public class Program {
 	      
 	      Map<String, Object[]> rowValues = new TreeMap<String, Object[]>();
 	      
+	      // write database access object here.
+	      
 	      rowValues.put("1", new Object[]{"FirstName", "LastName", "Department"});
+	      rowValues.put("2", new Object[]{"Ermias", "Kidane", "IT"});
+	      rowValues.put("3", new Object[]{"Ermias", "Kidane", "IT"});
+	      rowValues.put("4", new Object[]{"Ermias", "Kidane", "IT"});
+	      rowValues.put("5", new Object[]{"Ermias", "Kidane", "IT"});
+	      rowValues.put("6", new Object[]{"Ermias", "Kidane", "IT"});
+	      rowValues.put("7", new Object[]{"Ermias", "Kidane", "IT"});
+	      rowValues.put("8", new Object[]{"Ermias", "Kidane", "IT"});
+	      rowValues.put("9", new Object[]{"Cathy", "Xu", "IT"});
 	      
 	      Set<String> keys = rowValues.keySet();
 	      int rowId = 0;
